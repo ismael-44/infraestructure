@@ -49,7 +49,7 @@ Asignamos los puertos a la VLAN recién creada. En este ejemplo, asignaremos los
     port default vlan 10
     commit
 
-**NOTA**: En este caso hemos configurado los puertos en modo access, es posible configurarlos en modo trunk con el siguiente paso (Consultar la guia de Modo Access vs Modo Trunk)
+**NOTA**: En este caso hemos configurado los puertos en modo access, es posible configurarlos en modo trunk con el siguiente paso (Consultar la guia de VLANs para ver las diferencias)
 
 
 ### 5. Configurar una VLAN Trunk
