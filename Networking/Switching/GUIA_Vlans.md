@@ -18,7 +18,7 @@ Las VLANs facilitan la gestión de la red al permitir agrupar dispositivos por f
 ### 4. **Flexibilidad y Escalabilidad**
 Las VLANs permiten mover dispositivos dentro de la red sin necesidad de cambiar la configuración física, lo que proporciona flexibilidad y facilita la expansión de la red.
 
-## Tipos de VLANs
+## Ejemplos de VLANs
 
 ### 1. **VLANs de Datos**
 Estas VLANs se utilizan para segmentar el tráfico de datos en la red. Por ejemplo, se puede crear una VLAN para cada departamento de una empresa (e.g., VLAN de Ventas, VLAN de Finanzas).
@@ -76,6 +76,5 @@ Cuando un frame necesita ser encaminado entre VLANs, el switch utiliza el enruta
 
 Los dispositivos finales, como computadoras y servidores, generalmente no están conscientes de las VLANs. Solo interactúan con frames de Ethernet regulares y no están preocupados por el etiquetado de VLAN. El switch se encarga de agregar y eliminar los VLAN tags según sea necesario al transmitir el tráfico entre los dispositivos finales y la red VLAN.
 
-En resumen, a nivel bajo, las VLANs funcionan etiquetando los frames de Ethernet con información de VLAN, permitiendo así la segmentación del tráfico en una red local (LAN) y el control más granular sobre cómo se gestiona y enruta ese tráfico dentro de la red.
 
 
